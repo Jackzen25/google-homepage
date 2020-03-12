@@ -3,6 +3,16 @@ body {
     margin: 0;    
 }
 
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+a, :visited{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
 .top-links {
     display: flex;
     width: 100%;
@@ -56,6 +66,8 @@ ul {
     background: #1a73e8;
     border: 1px solid transparent;
     font-weight: bold;
+    width: 60px;
+    height: 25px;
     border-radius: 2px;
     color: white; 
 }
@@ -71,6 +83,43 @@ ul {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.searchbox input {
+    border: 1px solid #d1e1e5;
+    border-radius: 24px;
+    height: 50px; 
+    width: 580px;
+   }
+
+
+ /*.glass {
+    margin: 0;
+    padding 0;
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    transform: translate(-41px,11px) */
+
+.mic {
+    margin: 0;
+    padding 0;
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    transform: translate(-41px,11px)
+    
+
 }
 
 .buttonbox {
@@ -91,6 +140,18 @@ ul {
     margin-right: 7px;
     padding: 10px;
     text-align: center;
+}
+
+.link {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
 }
 
 .country {
