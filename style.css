@@ -103,7 +103,7 @@ ul {
    
  .glass {
     margin: 0;
-    padding 0;
+    padding: 0;
     height: 30px;
     width: 30px;
     border: none;
@@ -112,7 +112,7 @@ ul {
 
 .mic {
     margin: 0;
-    padding 0;
+    padding: 0;
     height: 30px;
     width: 30px;
     background: transparent;
